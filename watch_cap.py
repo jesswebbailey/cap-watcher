@@ -12,10 +12,8 @@ from bs4 import BeautifulSoup
 TARGET_URL = "https://dowcio.war.gov/Cyber-Workforce/Cyber-Workforce-Development/Cyber-Apprenticeship-Program/"
 TRIGGER_KEYWORDS = ["usajobs", "usajobs.gov", "apply now", "open now"]
 
-from dotenv import load_dotenv
 import os
 
-load_dotenv(Path.home() / ".env_cap_watcher")
 YOUR_EMAIL   = os.getenv("YOUR_EMAIL")
 APP_PASSWORD = os.getenv("APP_PASSWORD")
 NOTIFY_EMAIL = os.getenv("NOTIFY_EMAIL")
