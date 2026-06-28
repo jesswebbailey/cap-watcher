@@ -1,0 +1,3 @@
+.env_cap_watcher
+__pycache__/
+*.pyc
